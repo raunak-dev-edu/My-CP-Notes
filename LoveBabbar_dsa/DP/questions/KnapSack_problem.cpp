@@ -1,7 +1,7 @@
 // https://www.codingninjas.com/codestudio/problems/0-1-knapsack_920542?topList=love-babbar-dsa-sheet-problems&leftPanelTab=0
 /*
 ->KnapSack Problem - theif is robbing a store and can carry a maximal weight of W into his knapsack.There are N items and the ith item weighs wi and is of value vi.
-considering the constraints of the maximum weight that a knapsack can carry, you have to find and return the maximum value that a theif can generate by steaaling items.
+considering the constraints of the maximum weight that a knapsack can carry, you have to find and return the maximum value that a theif can generate by stealing items.
 
 #include <bits/stdc++.h> 
 // using recurssion
@@ -67,7 +67,7 @@ int solveTab(vector<int> &weight, vector<int> &value, int n, int capacity){
         }
     }
 
-    //step3 - take care of remamingin recurssive calls
+    //step3 - take care of remamining recurssive calls
     for(int index =1; index<n; index++){
         for(int w =0; w<=capacity; w++){
             int include =0;

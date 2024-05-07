@@ -60,7 +60,7 @@ Node* sortlist (Node * head){
 
     Node* curr = head;
 
-    / create separate list 0s, 1s and 2s
+    // create separate list 0s, 1s and 2s
     while(curr != NULL){
 
         int value = curr-> data;
@@ -77,24 +77,24 @@ Node* sortlist (Node * head){
         curr = curr -> next;
     }
 
-    / merge 3 sublist
+    // merge 3 sublist
 
-    / 1s lsit not empty
+    //1s lsit not empty
     if(oneHead -> next != NULL){
         zeroTail -> next = oneHead -> next;
     }
     else{
-        / 1s list -> empty
+        // 1s list -> empty
         zeroTail -> next = twoHead -> next;
     }
 
     oneTail -> next = twoHead -> next;
     twoTail -> next = NULL;
 
-    /setup head
+    //setup head
     head = zeroHead -> next;
 
-    /delete dummy nodes
+    //delete dummy nodes
     delete zeroHead;
     delete oneHead;
     delete twoHead;

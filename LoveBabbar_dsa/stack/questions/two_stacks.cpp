@@ -1,7 +1,7 @@
 // https://www.codingninjas.com/codestudio/problems/two-stacks_983634?leftPanelTab=0%3Fsource%3Dyoutube&campaign=YouTube_CodestudioLovebabbar5thfeb
 /*
 -> create two stacks using only one array common for both stacks.
-
+#include <bits/stdc++.h> 
 class TwoStack{
     int *arr;
     int top1;
@@ -31,7 +31,7 @@ public:
     void push2(int num){
         if(top2 - top1>1){
             top2--;
-            arr[top] = num;
+            arr[top2] = num;
         }
     }
 
@@ -49,9 +49,9 @@ public:
 
     // Pop from stack 2 and  return popped element.
     int pop2(){
-        if(top1>=0){
+        if(top2<size){
             int ans = arr[top2];
-            top2--;
+            top2++;
             return ans;
         }
         else{
@@ -60,6 +60,7 @@ public:
     }
 
 };
+
 
 
 

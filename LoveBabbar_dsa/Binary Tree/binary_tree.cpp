@@ -10,9 +10,7 @@
 7] Descendant - going down to node
 8] Leaf - node having no child
 
-Traversal - Level Order Traversal, Inorder(LNR(left print then middle node then right print)) , prorder(NLR), postorder (LRN) traversal
-
-
+Traversal - Level Order Traversal, Inorder(LNR(left print then middle node then right print)) , preorder(NLR), postorder (LRN) traversal
 
 */
 

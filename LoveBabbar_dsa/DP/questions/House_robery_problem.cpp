@@ -1,6 +1,6 @@
 // https://www.codingninjas.com/codestudio/problems/house-robber_839733?leftPanelTab=0
 /*
-->House robery problem - return maximum amount of money robbed given that house are in circle and adjacent house can be robbed as its contact to police. 
+->House robery problem - return maximum amount of money robbed given that house are in circle and adjacent house can't be robbed as its contact to police. 
 Amount of money in each house is given  in array. This is similar to last question that is maximum sum of non adjacent elements. only difference is last and first case are connected here thats making adjacent.
 
 

@@ -39,7 +39,7 @@ Node* insertIntoBST(Node* &root, int d){
         return root;
     }
 
-    if(d>root -> data){
+    if(d > root -> data){
         //right part me insert karna h
         root->right = insertIntoBST(root->right,d);
     }

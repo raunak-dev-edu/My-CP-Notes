@@ -2,7 +2,7 @@
 
 /*
 2 Approaches-
--Top - dowm -> recurssion + memorization
+-Top - down -> recurssion + memorization
 -Bottom - up -> tabulation
 -space optimization
 

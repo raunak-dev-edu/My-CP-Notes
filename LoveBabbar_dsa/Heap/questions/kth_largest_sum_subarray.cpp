@@ -38,7 +38,7 @@ int getKthLargest(vector<int> & arr, int k){
             }
             else{
                 if(sum>mini.top()){
-                    mini.top();
+                    mini.pop();
                     mini.push(sum);
                 }
             }
@@ -47,6 +47,5 @@ int getKthLargest(vector<int> & arr, int k){
     return mini.top();
 }
 
-TODO - approach2 is giving error
 
 */

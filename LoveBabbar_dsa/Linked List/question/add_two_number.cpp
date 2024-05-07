@@ -57,8 +57,8 @@ struct Node* add(struct Node* first, struct Node* second){
         if(second!=NULL){
             second=second-> next;
         }
-        return ansHead;
     }
+    return ansHead;
 }
 struct Node* addTwoLists(struct Node* first, struct Node* second){
     

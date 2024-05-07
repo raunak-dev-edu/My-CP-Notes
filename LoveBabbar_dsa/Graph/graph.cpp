@@ -19,7 +19,7 @@ class graph {
     unordered_map<int, list<int>> adj;
 
     void addEdge(int u, int v, bool direction){
-        //direction = 0 -> unidirected
+        //direction = 0 -> undirected
         // direction = 1 -> directed graph 
 
         //create an edge from u to v
